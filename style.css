@@ -1,0 +1,10 @@
+/* Style Document for my grandpa website */
+body {
+	background-color: lightblue;
+}
+
+/* Defining the header 1 text color and allignment */
+h1 {
+	color: white;
+	text-align: center;
+}
