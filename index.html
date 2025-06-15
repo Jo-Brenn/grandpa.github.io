@@ -44,6 +44,17 @@ h1 {
 	text-align: center;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
 /* Adding CSS elements for our image */
 
 </style>
@@ -67,8 +78,13 @@ of some sort. We add the image name, alternate text if the photo will not load, 
 the size of the image.-->
 <center>
 	<body>
-		<img src = "grandpa_pic.jpeg" alt = "Photo of Grandpa"
-		style = "width:300px; margin: 0 0 0 730px;" >
+	    <div class="container">
+				<img src = "grandpa_pic.jpeg" alt = "Photo of Grandpa"
+					style = "width:300px; margin: 0 0 0 730px;" >
+			<div class = "text">
+			<h2>Testing tex haha</h2>
+			</div>
+		</div>
 	</body>
 </center>
 
